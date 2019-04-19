@@ -4,14 +4,12 @@
 
 header {
   background: #0a2d66;
-  /* opacity: 0.8; */
   position: fixed;
   z-index: 3;
   width: 100%;
   left: 0;
   top: 0;
   padding-top: 10px;
-  /* padding-bottom: 1px; */
   border-bottom: 4px solid #F0D4C5;
 }
 
@@ -71,19 +69,6 @@ header {
   max-height: 9999px;
 }
 
-/* .disable-pointer-events {
-  pointer-events: none !important;
-} */
-
-/* .nav-toggle {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-} */
 
 @media screen and (min-width: 768px) {
   .js .nav-collapse {
@@ -96,42 +81,6 @@ header {
     display: none;
   }
 }
-
-/* ------------------------------------------
-  MASK
---------------------------------------------- */
-
-/* .mask {
-  -webkit-transition: opacity 300ms;
-  -moz-transition: opacity 300ms;
-  transition: opacity 300ms;
-  background: rgba(0,0,0, .2);
-  visibility: hidden;
-  position: fixed;
-  opacity: 0;
-  z-index: 2;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  top: 0;
-}
-
-.android .mask {
-  -webkit-transition: none;
-  transition: none;
-}
-
-.js-nav-active .mask {
-  visibility: visible;
-  opacity: 1;
-}
-
-@media screen and (min-width: 768px) {
-  .mask {
-    display: none !important;
-    opacity: 0 !important;
-  }
-} */
 
 
 /* ------------------------------------------
@@ -217,7 +166,7 @@ header {
   NAV TOGGLE STYLES
 --------------------------------------------- */
 
-.nav-toggle {
+/* .nav-toggle {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
@@ -227,15 +176,15 @@ header {
   width: 60px;
   height: 55px;
   float: right;
-}
+} */
 
 .nav-toggle:before {
-  color: #000; /* Edit this to change the icon color */
-  font: normal 28px/55px "FontAwesome"; /* Edit font-size (28px) to change the icon size */
+  color: #000;
+  font: normal 28px/55px "FontAwesome";
   text-transform: none;
   text-align: right;
   position: absolute;
-  content: "\f0c9"; /* Hamburger icon */
+  content: "\f0c9";
   text-indent: 0;
   speak: none;
   width: 100%;
@@ -245,5 +194,5 @@ header {
 
 .nav-toggle.active:before {
   font-size: 24px;
-  content: "\f00d"; /* Close icon */
+  content: "\f00d";
 }

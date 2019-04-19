@@ -13,7 +13,7 @@ html.lb-disable-scrolling {
   z-index: 9999;
   background-color: black;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+  /* opacity: 0.8; */
   display: none;
 }
 
@@ -167,7 +167,7 @@ html.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1em;
 }
