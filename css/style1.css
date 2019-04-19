@@ -1,0 +1,40 @@
+body{
+    background-color:#FCFAF7;
+}
+
+
+h1 {
+  font-size: 60px;
+  font-family:Helvetica
+}
+
+img {
+  height: 400px;
+  width: 600px;
+}
+
+p{
+  font-family: Helvetica, sans-serif;
+}
+
+
+nav li{
+	text-decoration: none;
+	display:block;
+  padding: 40px 16px;
+	color: White;
+  overflow: hidden;
+  background-color:green;
+  font-family:Helvetica;
+  float: right;
+}
+
+
+.current{
+background-color: pink;
+color: white
+}
+
+h1{
+  display:inline
+}
