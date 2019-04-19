@@ -206,7 +206,7 @@ button.accordion{
   margin-top: 20px;
   background-color:#F0D4C5;
   padding: 15px 40px;
-  color: white;
+  color: black;
   height:25px;
   display:inline-block;
   font-size: 13px;
@@ -216,6 +216,7 @@ button.accordion{
 
 .ac_button:hover{
   background-color:#0a2d66;
+  color: white;
 }
 
 
