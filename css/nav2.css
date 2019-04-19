@@ -45,12 +45,19 @@ background-color:#0a2d66;
 }
 
 @media screen and (max-width: 600px) {
+  .topnav a.vertical{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
 
   .topnav.responsive a {
     float: none;
