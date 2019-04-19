@@ -204,9 +204,9 @@ button.accordion{
 
 .ac_button{
   margin-top: 20px;
+  color: black;
   background-color:#F0D4C5;
   padding: 15px 40px;
-  color: black;
   height:25px;
   display:inline-block;
   font-size: 13px;
@@ -694,7 +694,7 @@ Media Queries TRIPS
   margin-top: 20px;
   background-color:#F0D4C5;
   padding: 15px 40px;
-  color: white;
+  color: black;
   height:25px;
   display:inline-block;
   font-size: 13px;
@@ -706,6 +706,7 @@ Media Queries TRIPS
 @media screen and (min-width:780px){
   .ac_button:hover{
   background-color:#0a2d66;
+  color: white;
 }
 }
 
